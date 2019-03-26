@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Vancouver
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -27,17 +27,20 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+plugins:
+  - jekyll-jupyter-notebook
+
 #
 ###################################
 # Site Owner configuration
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: Samantha Fritsche
+  avatar: me_img.png
+  job: "Software Development/Data Analysis"
+  bio: "A driven Computer Science/Applied Math double major who will be seeking full time positions starting Spring 2020."
+  email: "sfritsch@macalester.edu"
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -48,10 +51,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: "Sammy-F" #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: "Samantha-Fritsche" #username
   skype: #username
   xing: #username
   instagram: #username
